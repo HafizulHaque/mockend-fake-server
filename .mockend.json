@@ -17,7 +17,7 @@
       }
     },
     "location": {
-      "regexp": "(Toronto, Canada|California, USA|Dhaka, Bangladesh|Mumbai, India|Bali, Indoneshia)"
+      "regexp": "[A-Z]{1}[a-z]{4,8}, [A-Z]{1}[a-z]{4,8}"
     }
   }
 }
