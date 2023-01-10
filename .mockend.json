@@ -1,11 +1,21 @@
 {
-  "Post": {
-    "_": { "items": 20 },
-    "title": { "string": {} },
-    "comments": { "hasMany": "Comment" }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": { "belongsTo": "Post" }
+  "Career": {
+    "_": {"items": 10},
+    "id": {
+      "int": {}
+    },
+    "title": {
+      "regexp": "[Senior|Junior|Mid Level] [Java|Node.js|React|Angular] Developer"
+    },
+    "salary": {
+      "int": {
+        "min": 2000,
+        "max": 100000
+      }
+    },
+    "location": {
+      "regexp": "[Toronto, Canada|California, USA|Dhaka, Bangladesh|Mumbai, India|Bali, Indoneshia]"
+    }
   }
 }
+
