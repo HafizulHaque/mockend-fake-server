@@ -8,7 +8,7 @@
       }
     },
     "title": {
-      "regexp": "\b(Senior|Junior|Mid-Level)\b \b(Java|Node.js|React|Angular)\b Developer"
+      "regexp": "(Senior|Junior|Mid-Level) (Java|Node.js|React|Angular) Developer"
     },
     "salary": {
       "int": {
@@ -17,7 +17,7 @@
       }
     },
     "location": {
-      "regexp": "\b(Toronto, Canada|California, USA|Dhaka, Bangladesh|Mumbai, India|Bali, Indoneshia)\b"
+      "regexp": "(Toronto, Canada|California, USA|Dhaka, Bangladesh|Mumbai, India|Bali, Indoneshia)"
     }
   }
 }
