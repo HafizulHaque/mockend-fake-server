@@ -8,7 +8,7 @@
       }
     },
     "title": {
-      "regexp": "(Senior|Junior|Mid-Level) (Java|Node.js|React|Angular) Developer"
+      "regexp": "Senior|Junior|MidLevel Java|NodeJS|React|Angular Developer"
     },
     "salary": {
       "int": {
