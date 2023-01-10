@@ -2,7 +2,10 @@
   "Career": {
     "_": {"items": 10},
     "id": {
-      "int": {}
+      "int": {
+        "min": 1,
+        "max": 1000
+      }
     },
     "title": {
       "regexp": "[Senior|Junior|Mid Level] [Java|Node.js|React|Angular] Developer"
